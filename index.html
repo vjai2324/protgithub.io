@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .head_bg_img {
+            background-image: url("im1.jpg");
+            background-size: cover;
+            /* background-attachment: fixed; */
+            /* width: 100%;
+            height: 10%; */
+            border: 3px solid black;
+        }
+
+        .main_nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+        }
+
+        .head_logo {
+            /* border: 2px solid black; */
+
+            font-size: 14px;
+            text-align: center;
+            padding: 0px 10px 0px 0px;
+            margin: 19px 1px 0px 0px;
+        }
+
+        .nav_bar {
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            font-size: 18px;
+            word-spacing: 1%;
+            /* margin: 1px ; */
+            padding: 10px 5px 10px 1px;
+            list-style-type: none;
+            width: 18%;
+
+
+        }
+
+        .nva_li {
+            /* border: 2px solid black; */
+            margin-left: 20px;
+            padding: 13px 10px 12px 10px;
+            text-align: center;
+
+        }
+
+        .nva_li:hover {
+            border: 1px solid gainsboro;
+            border-radius: 10px;
+            background-color: aliceblue;
+
+        }
+
+        .user_img {
+            /* border: 2px solid black; */
+            /* background-size: 1px 2px; */
+            /* width: 20px;
+            height: 2px; */
+            margin: 3% 3% 0% 45.5%;
+            padding-right: 0px;
+
+        }
+
+        .user_intro {
+            /* border: 2px solid black ; */
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+
+
+        }
+
+
+        #intro_button {
+
+            /* border: 2px solid black ; */
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            width: 150px;
+            padding: 10px 32px;
+            text-align: center;
+            border-radius: 4px;
+            font-size: 13px;
+            margin-bottom: 69px;
+
+        }
+
+        .user_name {
+            font-size: 50px;
+            margin: 10px 2px 10px 3px;
+            padding: 0px;
+
+
+
+        }
+
+        .bio {
+            font-size: 18px;
+            margin: 2px 2px 10px 3px;
+            padding-bottom: 17px;
+        }
+
+        .main_soicalM_link {
+            width: 15%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin: -30px auto;
+            /* background-color: #4CAF50; */
+            justify-content: center;
+
+        }
+
+        .soicalM_link {
+            background-color: gray;
+            /* border: 2px solid black; */
+            border-radius: 100px;
+            text-align: center;
+            padding: 18px 2px 5px 0px;
+            font-size: 26px;
+            color: aliceblue;
+            width: 60px;
+            height: 40px;
+            margin: 0px 0px 0px 0px;
+
+
+
+        }
+
+        .newboxb h2 {}
+
+        .boxb {
+            border: 1px solid rgb(241, 233, 233);
+            margin: 90px 25em 9px 25em;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 20px;
+            box-shadow: 0px 10px 50px 10px rgb(214, 197, 174);
+            border-radius: 6px;
+        }
+
+        .b1_about {
+            /* border: 2px solid black; */
+            padding-left: 10px;
+            margin-bottom: 0px;
+            padding-top: 10px;
+            font-size: 23px;
+
+
+
+        }
+
+        .b1_con {
+            word-spacing: 3px;
+            padding: 11px 20px 5px 9px;
+            font-size: 22px;
+            text-align: justify;
+
+
+        }
+
+        .b1_p1 {
+            padding-bottom: 10px;
+        }
+
+        .b2_basic_info {
+            padding: 7px 6px 7px 30px;
+            text-justify: ;
+            /* border: 2px solid  blue; */
+            font-size: 23px;
+
+        }
+
+        .b2_con_box {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            /* border: 2px solid black; */
+            padding: 7px 0px 7px 23px;
+            font-size: 23px;
+
+        }
+
+        .b2_con_H {
+
+            font-size: 23px;
+            padding: 8px 0px 10px 8px;
+            /* border: 2px solid black;     */
+        }
+
+        .b2_cona {
+            /* border: 2px solid black; */
+            font-size: 23px;
+            padding: 8px 0px 3px 1px;
+        }
+
+        .b2_h {
+
+            padding: 4px;
+            font-weight: bold;
+
+        }
+
+        .b2_con {
+
+            padding: 4px;
+
+        }
+
+        .bba {
+
+            /* border: 2px solid black; */
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 3fr;
+            gap: 10px;
+            padding: 10px 2px 7px 4px;
+
+        }
+
+        .bb1 {
+            padding: 10px 2px 7px 2px;
+            /* border: 2px solid black; */
+        }
+
+        .bb1a {
+            padding: 10px 2px 7px 2px;
+            /* background-color: aquamarine; */
+            /* border: 2px solid black; */
+
+        }
+
+        progress {
+            width: 500px;
+
+            height: 10px;
+            margin: 9px;
+            border-radius: 1px;
+
+
+        }
+
+        .bb2 {
+            padding: 10px 2px 7px 2px;
+
+
+        }
+
+        .bb2a {
+            /* border: 2px solid black; */
+            padding: 10px 2px 7px 2px;
+        }
+
+        .bb1a p {
+            font-size: 22px;
+            padding-left: 8px;
+
+
+
+
+        }
+
+        .bb2a p {
+            font-size: 22px;
+            padding-left: 8px;
+
+        }
+
+        /* next */
+        .boxd h2 {
+            margin: 50px;
+            text-align: center;
+            font-size: 40px;
+
+        }
+
+        .boxd1 {
+            width: 15%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 50px auto;
+            /* background-color: #4CAF50; */
+            justify-content: center;
+        }
+
+        .newboxb h2 {
+            border-color: gold;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 60px;
+            margin-bottom: -50px;
+
+        }
+
+        /* next box */
+
+        .boxd {
+            width: 60%;
+            margin: auto;
+            /* border: 3px solid red; */
+            display: grid;
+            justify-content: center;
+
+        }
+
+        .Portfolio_img {
+            /* border-color: #4CAF50; */
+            /* border: 2px solid black; */
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            row-gap: 20px;
+            column-gap: 20px;
+
+        }
+
+        .Portfolio_img img {
+            width: 30em;
+            height: 30em;
+            z-index: 1;
+        }
+
+        .contactbox {
+            border: 1px solid;
+            width: 30%;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            z-index: 2;
+        }
+
+        .contact {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            padding-left: 15px;
+        }
+
+        #cont {
+            display: block;
+        }
+
+        .contact1 input {
+            margin-bottom: 15px;
+        }
+
+        .contact2 h5,
+        p {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .contact2 h5 {
+            margin-top: 25px;
+        }
+
+        #send {
+            display: block;
+            background-color: green;
+            border: none;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .contact input {
+
+            border-radius: 20px;
+            margin-bottom: 20px;
+            padding: 5px;
+        }
+
+        .contact textarea {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+        }
+
+        /* Next boxE */
+        /* .boxE{}>
+.boxEa{}>
+.boxEa1{}>
+.boxEa1a{}
+.boxEa1b{}
+.boxEa2{} */
+
+
+        .boxE {
+            border-radius: 6px;
+
+            width: 51%;
+            height: 15em;
+            border: 1px solid rgb(240, 237, 237);
+            display: grid;
+            margin: 3em 20px 0px 29em;
+            box-shadow: -1px 8px 10px 10px rgb(218, 196, 172);
+            border-radius: 6px;
+
+
+        }
+
+        .boxEa {
+
+            /* border: 2px solid red; */
+            display: grid;
+
+            grid-template-columns: 1fr 3fr;
+
+
+
+        }
+
+        .boxEa1 {
+            background-color: #49cf49;
+            column-gap: 20px;
+            /* border: 2px solid rgb(20, 230, 160); */
+
+            height: 15em;
+
+        }
+
+        .boxEa1a {
+            margin: 15px;
+            text-align: center;
+            padding: 60px 10px 10px 0px;
+            font-size: 16px;
+
+
+        }
+
+        .boxEa1b {
+            margin: 22px;
+            text-align: center;
+            padding: 0px 10px 30px 0px;
+        }
+
+        .boxEa2 {
+
+            font-size: 20px;
+            padding: 20px 10px 20px 12px;
+
+            /* border: 2px solid rgb(20, 111, 230); */
+        }
+
+        .boxEa2 p {
+            font-size: 20px;
+            padding: 20px 10px 20px 10px;
+            text-align: justify;
+
+
+            /* border: 2px solid rgb(20, 111, 230); */
+        }
+
+
+        .h2box3 {
+            margin: 3em 0px 1em 0px;
+            text-align: center;
+            font-size: 40px;
+
+
+        }
+
+        h3 {
+            font-size: 20px;
+            opacity: .4;
+            padding-top: 5px;
+        }
+
+        .contact_Me_fome {
+
+            width: 100%;
+            height: 200%;
+            /* border: 2px solid red;
+            background-color: #49cf49; */
+
+        }
+
+        iframe {
+            width: 100%;
+            height: 500px;
+
+        }
+
+        .bg_map {
+            margin-top: 50px;
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .contactbox {
+            position: relative;
+            z-index: 2;
+            padding: 30px;
+            margin-top: 100px;
+            margin-bottom: 40px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 6px;
+            font-size: 25px;
+
+        }
+        .foot{
+            margin: auto;
+            width: 100%;
+            height: 300px;
+            /* border: 1px solid rgb(228, 51, 51); */
+            display: grid;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="main_div">
+        <!-- Here Start boxA head of the Web page -->
+        <div class="head_bg_img">
+            <!-- <div class="nav"> -->
+            <div class="main_nav">
+                <div class="head_logo">
+                    <h1>CREATIVE CV </h1>
+                </div>
+                <div class="nav_bar">
+                    <li class="nva_li"> ABOUT</li>
+                    <li class="nva_li">SKILLS</li>
+                    <li class="nva_li">PORTFOLIO </li>
+                    <li class="nva_li">EXPERIENCE </li>
+                    <li class="nva_li">CONTACT </li>
+                </div>
+            </div>
+
+
+            <div class="user_img">
+                <img src="https://jooinn.com/images/man39s-face-11.jpg" alt="" width="180px" height="130px"
+                    style="border-radius: 60%; align-items: center;">
+
+
+            </div>
+            <div class="user_intro">
+                <h2 class="user_name">Jai Prakash</h2>
+                <p class="bio">WEB DEVELOPER, GRAPHIC DESIGNER, PHOTOGRAPHER</p>
+                <div>
+                    <input type="button" value="Hire Me" id="intro_button">
+
+                    <input type="button" value="Download CV" id="intro_button">
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- here social media links--------------- -->
+
+        <div class="main_soicalM_link">
+            <div class="soicalM_link">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+
+            <div class="soicalM_link"> <i class="fa fa-twitter" aria-hidden="true"></i> </div>
+
+            <div class="soicalM_link"> <i class="fa fa-google-plus" aria-hidden="true"></i></div>
+
+            <div class="soicalM_link"> <i class="fa fa-instagram" aria-hidden="true"></i></div>
+
+        </div>
+
+
+        <!--   Here Start Next boxB of web page         -->
+
+        <div class="boxb">
+            <!-- b2 stand for box2 ,, in boxB,  -->
+            <div class="b1_about">
+                <h2>About</h2>
+            </div>
+            <div class="b2_basic_info">
+                <h2>Basic Information</h2>
+            </div>
+            <!-- b1_con, con stand for contant (box1 contant) -->
+            <div class="b1_con">
+                <div>
+                    <p class="b1_p1">Hello! I am Anthony Barnett. Web Developer, Graphic Designer and Photographer.
+                        Creative CV is a HTML resume template for professionals. </p>
+                </div>
+                <div>
+                    <p> Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template
+                        is
+                        perfect to showcase your portfolio, skills and experience. <a href=""> Learn More </a> </p>
+                </div>
+            </div>
+            <div class="b2_con_box">
+                <!-- b2_con_H,, H stand for Heading -->
+                <div class="b2_con_H">
+                    <div class="b2_h">
+                        <p>AGE:
+                        </p>
+                    </div>
+                    <div class="b2_h">
+                        <p>EMAIL:</p>
+                    </div>
+                    <div class="b2_h">
+                        <p>PHONE:</p>
+                    </div>
+                    <div class="b2_h">
+                        <p>ADDRESS:</p>
+                    </div>
+                    <div class="b2_h">
+                        <p>LANGUAGE:</p>
+                    </div>
+
+                </div>
+                <!-- contant a, stand for box a in contant box -->
+                <div class="b2_cona">
+                    <div class="b2_con">
+                        <p>24</p>
+                    </div>
+                    <div class="b2_con">
+                        <p>anthony@company.com</p>
+                    </div>
+                    <div class="b2_con">
+                        <p>
+                            +1718-111-0011</p>
+                    </div>
+                    <div class="b2_con">
+                        <p>140, City Center, New York, U.S.A</p>
+                    </div>
+                    <div class="b2_con">
+                        <p>English, German, French, Hindi</p>
+                    </div>
+
+                </div>
+                <!-- b2_con_con,, contant  -->
+
+
+            </div>
+
+
+        </div>
+
+        <!-- Here Start Next boxC of web page (Professional Skills) -->
+
+        <!-- div*1>div*1>div*2>div*3 -->
+        <div class="newboxb">
+            <h2>Professional Skills</h2>
+            <div class="boxb">
+
+                <div class="bba">
+
+                    <div class="bb1">
+                        <div class="bb1a">
+                            <P>HTML</P><progress value="80" max="100"></progress>
+                        </div>
+                        <div class="bb1a">
+                            <p>CSS</p><progress value="60" max="100"></progress>
+                        </div>
+                        <div class="bb1a">
+                            <p>JavaScript</p><progress value="20" max="100"></progress>
+                        </div>
+                    </div>
+                    <div class="bb2">
+                        <div class="bb2a">
+                            <p>Excel</p><progress value="80" max="100"></progress>
+                        </div>
+                        <div class="bb2a">
+                            <p>DBMS</p><progress value="60" max="100"></progress>
+                        </div>
+                        <div class="bb2a">
+                            <p>Networking</p><progress value="70" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Here Start Next boxD of web page (Portfolio) -->
+        <!-- div*1>div*1>div*3 -->
+
+        <div class="boxd">
+            <h2>Portfolio</h2>
+            <div class="boxd1">
+                <div class="soicalM_link"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                <div class="soicalM_link"><i class="fa fa-file-image-o" aria-hidden="true"></i>
+                </div>
+                <div class="soicalM_link"><i class="fa fa-camera" aria-hidden="true"></i></div>
+            </div>
+            <div class="Portfolio_img"><img src="3.jpg" alt="">
+                <img src="3.jpg" alt="">
+                <img src="3.jpg" alt="">
+                <img src="3.jpg" alt="">
+
+            </div>
+
+
+        </div>
+
+        <!-- Here Start boxE of web page (Work Experience)  -->
+
+        <h2 class="h2box3">Work Experience</h2>
+        <div class="boxE">
+
+            <div class="boxEa">
+                <div class="boxEa1">
+                    <div class="boxEa1a">
+                        <p>MARCH 2016 - PRESENT</p>
+                    </div>
+
+                    <div class="boxEa1b">
+                        <h2>CREATIVEM</h2>
+                    </div>
+
+                </div>
+
+                <div class="boxEa2">
+                    <h2>Front End Developer</h2>
+                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
+                        tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel
+                        eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque
+                        eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam
+                        pretium molestie ultricies sollicitudin dui.</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="boxE">
+
+            <div class="boxEa">
+                <div class="boxEa1">
+                    <div class="boxEa1a">
+                        <p>APRIL 2014 - MARCH 2016</p>
+                    </div>
+
+                    <div class="boxEa1b">
+                        <h2>WEBNOTE</h2>
+                    </div>
+
+                </div>
+
+                <div class="boxEa2">
+                    <h2>Web Developer</h2>
+                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
+                        tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel
+                        eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque
+                        eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam
+                        pretium molestie ultricies sollicitudin dui.</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="boxE">
+
+            <div class="boxEa">
+                <div class="boxEa1">
+                    <div class="boxEa1a">
+                        <p>APRIL 2013 - FEBRUARY 2014</p>
+                    </div>
+
+                    <div class="boxEa1b">
+                        <h2>WEBM</h2>
+                    </div>
+
+                </div>
+
+                <div class="boxEa2">
+                    <h2>Intern</h2>
+                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
+                        tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel
+                        eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque
+                        eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam
+                        pretium molestie ultricies sollicitudin dui.</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- here next box -->
+        <h2 class="h2box3">Education</h2>
+        <div class="boxE">
+
+            <div class="boxEa">
+                <div class="boxEa1">
+                    <div class="boxEa1a">
+                        <p>2013 - 2015</p>
+                    </div>
+
+                    <div class="boxEa1b">
+                        <h2>Master's Degree
+                        </h2>
+                    </div>
+
+                </div>
+
+                <div class="boxEa2">
+                    <h2>
+                        Master's Degree
+                        Master of Information Technology</h2>
+                    <h3>UNIVERSITY OF COMPUTER SCIENCE</h3>
+                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
+                        tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel
+                        eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque
+                        eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam
+                        pretium molestie ultricies sollicitudin dui.</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="boxE">
+
+            <div class="boxEa">
+                <div class="boxEa1">
+                    <div class="boxEa1a">
+                        <p>2009 - 2013</p>
+                    </div>
+
+                    <div class="boxEa1b">
+                        <h2>Bachelor's Degree</h2>
+                    </div>
+
+                </div>
+
+                <div class="boxEa2">
+                    <h2>Bachelor of Computer Science</h2>
+                    <h3>UNIVERSITY OF COMPUTER SCIENCE</h3>
+                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
+                        tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel
+                        eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque
+                        eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam
+                        pretium molestie ultricies sollicitudin dui.</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="boxE">
+
+            <div class="boxEa">
+                <div class="boxEa1">
+                    <div class="boxEa1a">
+                        <p>2007 - 2009</p>
+                    </div>
+
+                    <div class="boxEa1b">
+                        <h2>High School</h2>
+                    </div>
+
+                </div>
+
+                <div class="boxEa2">
+                    <h2>Science and Mathematics</h2>
+                    <h3>SCHOOL OF SECONDARY BOARD</h3>
+                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
+                        tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel
+                        eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque
+                        eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam
+                        pretium molestie ultricies sollicitudin dui.</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- Here Start BoxF of web page (Education) -->
+        <h2 class="h2box3">References</h2>
+        <div class="boxE">
+
+            <div class="boxEa">
+                <!-- <div class="boxEa1"> -->
+                <div class="boxEa1b">
+
+                    <img src="https://i.pinimg.com/originals/0d/95/c9/0d95c9bb6a34a25f9471e216ecb38412.jpg" alt=""
+                        srcset="" width="200em">
+
+                </div>
+
+
+
+                <!-- </div> -->
+
+                <div class="boxEa2">
+                    <h3
+                        style="border-bottom:2px solid rgb(173, 179, 172); font-size: 25px; margin-right: 20px; padding-bottom:4px ; color: rgb(209, 138, 30); opacity: .8;">
+                        ABC Company ( CEO )</h3>
+                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
+                        tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel
+                        eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque
+                        eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam
+                        pretium molestie ultricies sollicitudin dui.</p>
+
+                </div>
+
+
+            </div>
+
+            <!-- Here Start BoxH of web page (map) -->
+
+
+        </div>
+        <div class="bg_map">
+
+            <iframe id="inlineFrameExample" title="Inline Frame Example"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+            </iframe>
+
+
+        </div>
+
+        <!-- Here Start BoxI of web page (End of the Web page ) -->
+
+
+    <!-- Here Start BoxG of web page (References) -->
+    <!-- div*1>div*2 -->
+    <div class="contactbox">
+        <p class="headings" id="cont">Contact Me</p>
+        <div class="contact">
+            <div class="contact1">
+                <h5>Feel free to contact me</h5>
+                <form action="get">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Subject">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <div class="msg">
+                        <textarea name="" id="" cols="18" rows="3" placeholder="Your Message"></textarea>
+                        <input type="button" value="send" id="send">
+                    </div>
+            </div>
+            </form>
+            <div class="contact2">
+                <div class="address">
+                    <h5>ADDRESS</h5>
+                    <p>40, City Center, New York, U.S.A</p>
+                </div>
+                <div class="phone">
+                    <h5>Phone</h5>
+                    <p>+1718-111-0011</p>
+                </div>
+                <div class="Email">
+                    <h5>Email</h5>
+                    <p>anthony@company.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <!-- Here User name -->
+     <div>
+        <div>
+            <h2 class="h2box3">Jai Prakash</h2>
+        </div>
+        <div>
+            <p>© Creative CV. All rights reserved.
+                Design - TemplateFlip </p>
+                 </div>
+    </div>
+
+        </div>
+
+        
+
+        <!-- here Social Link  -->
+        <div class="main_soicalM_link">
+            <div class="soicalM_link">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+
+            <div class="soicalM_link"> <i class="fa fa-twitter" aria-hidden="true"></i> </div>
+
+            <div class="soicalM_link"> <i class="fa fa-google-plus" aria-hidden="true"></i></div>
+
+            <div class="soicalM_link"> <i class="fa fa-instagram" aria-hidden="true"></i></div>
+
+        </div>
+    </footer>
+     
+
+       
+    </div>
+
+
+    <div>
+
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+
+</body>
+
+</html>
