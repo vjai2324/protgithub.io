@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    
+
     <style>
         * {
             padding: 0px;
@@ -19,9 +23,14 @@
             /* background-attachment: fixed; */
             /* width: 100%;
             height: 10%; */
-            border: 3px solid black;
-            background-color: blue;
-            
+            /* border: 3px solid black; */
+          
+        }
+        h2{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        }
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
 
         .main_nav {
@@ -37,6 +46,11 @@
             text-align: center;
             padding: 0px 10px 0px 0px;
             margin: 19px 1px 0px 0px;
+            color: rgb(0, 0, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration:none;
+
+            
         }
 
         .nav_bar {
@@ -49,6 +63,9 @@
             padding: 10px 5px 10px 1px;
             list-style-type: none;
             width: 18%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration:none;
+            
 
 
         }
@@ -58,15 +75,21 @@
             margin-left: 20px;
             padding: 13px 10px 12px 10px;
             text-align: center;
+            position: relative;
+            text-decoration:none;
 
         }
 
-        .nva_li:hover {
+        
+
+        /* .nva_li:hover {
+         
+          
             border: 1px solid gainsboro;
             border-radius: 10px;
             background-color: aliceblue;
 
-        }
+        } */
 
         .user_img {
             /* border: 2px solid black; */
@@ -80,12 +103,12 @@
 
         .user_intro {
             /* border: 2px solid black ; */
-            color: white;
+            color: rgb(238, 237, 235);
             text-align: center;
             margin-top: 10px;
             padding-top: 10px;
             padding-bottom: 20px;
-
+           
 
         }
 
@@ -138,16 +161,12 @@
             text-align: center;
             padding: 18px 2px 5px 0px;
             font-size: 26px;
-            color: aliceblue;
+         
             width: 60px;
             height: 40px;
             margin: 0px 0px 0px 0px;
 
-
-
         }
-
-        .newboxb h2 {}
 
         .boxb {
             border: 1px solid rgb(241, 233, 233);
@@ -166,8 +185,6 @@
             padding-top: 10px;
             font-size: 23px;
 
-
-
         }
 
         .b1_con {
@@ -175,22 +192,17 @@
             padding: 11px 20px 5px 9px;
             font-size: 22px;
             text-align: justify;
-
-
         }
 
         .b1_p1 {
             padding-bottom: 10px;
         }
-
         .b2_basic_info {
             padding: 7px 6px 7px 30px;
-            text-justify: ;
+            
             /* border: 2px solid  blue; */
             font-size: 23px;
-
         }
-
         .b2_con_box {
             display: grid;
             grid-template-columns: 1fr 2fr;
@@ -206,7 +218,6 @@
             padding: 8px 0px 10px 8px;
             /* border: 2px solid black;     */
         }
-
         .b2_cona {
             /* border: 2px solid black; */
             font-size: 23px;
@@ -217,15 +228,11 @@
 
             padding: 4px;
             font-weight: bold;
-
         }
 
         .b2_con {
-
             padding: 4px;
-
         }
-
         .bba {
 
             /* border: 2px solid black; */
@@ -234,7 +241,6 @@
             grid-template-rows: 3fr;
             gap: 10px;
             padding: 10px 2px 7px 4px;
-
         }
 
         .bb1 {
@@ -256,13 +262,10 @@
             margin: 9px;
             border-radius: 1px;
 
-
         }
 
         .bb2 {
             padding: 10px 2px 7px 2px;
-
-
         }
 
         .bb2a {
@@ -273,9 +276,6 @@
         .bb1a p {
             font-size: 22px;
             padding-left: 8px;
-
-
-
 
         }
 
@@ -525,6 +525,11 @@
             display: grid;
             justify-content: center;
         }
+        a{
+            text-decoration: none;
+            color: black;
+            
+        }
         
     </style>
 </head>
@@ -539,11 +544,17 @@
                     <h1>CREATIVE CV </h1>
                 </div>
                 <div class="nav_bar">
-                    <li class="nva_li"> ABOUT</li>
-                    <li class="nva_li">SKILLS</li>
-                    <li class="nva_li">PORTFOLIO </li>
-                    <li class="nva_li">EXPERIENCE </li>
-                    <li class="nva_li">CONTACT </li>
+                    <a href="" id="about"><li class="nva_li"  > ABOUT</li></a>
+
+                    <a href="#skills" >
+                    <li class="nva_li">SKILLS</li></a>
+
+                    <a href="#portfoloio" >
+                    <li class="nva_li">PORTFOLIO </li></a>
+                    <a href="#experience" >
+                    <li class="nva_li">EXPERIENCE </li></a>
+                    <a href="#contact" >
+                    <li class="nva_li">CONTACT </li></a>
                 </div>
             </div>
 
@@ -556,7 +567,7 @@
             </div>
             <div class="user_intro">
                 <h2 class="user_name">Jai Prakash</h2>
-                <p class="bio">WEB DEVELOPER, GRAPHIC DESIGNER, PHOTOGRAPHER</p>
+                <p class="bio"> Web Development Student</p>
                 <div>
                     <input type="button" value="Hire Me" id="intro_button">
 
@@ -575,14 +586,15 @@
 
         <div class="main_soicalM_link">
             <div class="soicalM_link">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"   style="   color: antiquewhite;"></i>
             </div>
 
-            <div class="soicalM_link"> <i class="fa fa-twitter" aria-hidden="true"></i> </div>
+            <a href="mailto:vjai2324@gmail.com"> <div class="soicalM_link">  <i class="fa fa-envelope" aria-hidden="true"  style="   color: antiquewhite;"></i>
+            </div> </a>
 
-            <div class="soicalM_link"> <i class="fa fa-google-plus" aria-hidden="true"></i></div>
+            <div class="soicalM_link"> <i class="fa fa-google-plus" aria-hidden="true"   style="   color: antiquewhite;"></i></div>
 
-            <div class="soicalM_link"> <i class="fa fa-instagram" aria-hidden="true"></i></div>
+            <a href="https://www.linkedin.com/in/jai-prakash-9a59681a1/"> <div class="soicalM_link"> <i class="fa fa-linkedin" aria-hidden="true"   style="   color: antiquewhite;"></i>  </div> </a>
 
         </div>
 
@@ -591,7 +603,7 @@
 
         <div class="boxb">
             <!-- b2 stand for box2 ,, in boxB,  -->
-            <div class="b1_about">
+            <div class="b1_about" for="about">
                 <h2>About</h2>
             </div>
             <div class="b2_basic_info">
@@ -600,13 +612,11 @@
             <!-- b1_con, con stand for contant (box1 contant) -->
             <div class="b1_con">
                 <div>
-                    <p class="b1_p1">Hello! I am Anthony Barnett. Web Developer, Graphic Designer and Photographer.
-                        Creative CV is a HTML resume template for professionals. </p>
+                    <p class="b1_p1">Hello! I am Jai Prakash. Web Development Student and  Good Photographer.
+                         </p>
                 </div>
-                <div>
-                    <p> Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template
-                        is
-                        perfect to showcase your portfolio, skills and experience. <a href=""> Learn More </a> </p>
+                <div style="margin-top: 22px;">
+                    <p> Built This CV using HTML, CSS,   FontAwesome,  UI  Design Guidelines and add my little Experiment. <a href="" > Read More </a> </p>
                 </div>
             </div>
             <div class="b2_con_box">
@@ -633,20 +643,20 @@
                 <!-- contant a, stand for box a in contant box -->
                 <div class="b2_cona">
                     <div class="b2_con">
-                        <p>24</p>
+                        <p>21</p>
                     </div>
                     <div class="b2_con">
-                        <p>anthony@company.com</p>
+                        <p>vjai2324@gmail.com</p>
                     </div>
                     <div class="b2_con">
                         <p>
-                            +1718-111-0011</p>
+                            +17XX-XXX-XXXX</p>
                     </div>
                     <div class="b2_con">
-                        <p>140, City Center, New York, U.S.A</p>
+                        <p>City Center, Jodhpur, Rajasthan</p>
                     </div>
                     <div class="b2_con">
-                        <p>English, German, French, Hindi</p>
+                        <p>   Hindi, English </p>
                     </div>
 
                 </div>
@@ -661,7 +671,7 @@
         <!-- Here Start Next boxC of web page (Professional Skills) -->
 
         <!-- div*1>div*1>div*2>div*3 -->
-        <div class="newboxb">
+        <div class="newboxb" id="skills">
             <h2>Professional Skills</h2>
             <div class="boxb">
 
@@ -696,14 +706,14 @@
 
         <!-- Here Start Next boxD of web page (Portfolio) -->
         <!-- div*1>div*1>div*3 -->
-
-        <div class="boxd">
+<!-- 
+        <div class="boxd" id="portfoloio">
             <h2>Portfolio</h2>
             <div class="boxd1">
-                <div class="soicalM_link"><i class="fa fa-desktop" aria-hidden="true"></i></div>
-                <div class="soicalM_link"><i class="fa fa-file-image-o" aria-hidden="true"></i>
+                <div class="soicalM_link"><i class="fa fa-desktop" aria-hidden="true" style="   color: antiquewhite;"></i></div>
+                <div class="soicalM_link"><i class="fa fa-file-image-o" aria-hidden="true" style="   color: antiquewhite;"></i>
                 </div>
-                <div class="soicalM_link"><i class="fa fa-camera" aria-hidden="true"></i></div>
+                <div class="soicalM_link"><i class="fa fa-camera" aria-hidden="true" style="   color: antiquewhite;"></i></div>
             </div>
             <div class="Portfolio_img"><img src="3.jpg" alt="">
                 <img src="3.jpg" alt="">
@@ -713,12 +723,12 @@
             </div>
 
 
-        </div>
+        </div> -->
 
         <!-- Here Start boxE of web page (Work Experience)  -->
-
+<!-- 
         <h2 class="h2box3">Work Experience</h2>
-        <div class="boxE">
+        <div class="boxE" id="experience">
 
             <div class="boxEa">
                 <div class="boxEa1">
@@ -745,10 +755,10 @@
 
             </div>
 
-        </div>
+        </div> -->
 
 
-        <div class="boxE">
+        <!-- <div class="boxE">
 
             <div class="boxEa">
                 <div class="boxEa1">
@@ -804,20 +814,22 @@
 
             </div>
 
-        </div>
+        </div> -->
 
         <!-- here next box -->
-        <h2 class="h2box3">Education</h2>
-        <div class="boxE">
+       
+        <h2 class="h2box3">  Education</h2>
+        <div class="boxE" id="education">
+           
 
             <div class="boxEa">
                 <div class="boxEa1">
                     <div class="boxEa1a">
-                        <p>2013 - 2015</p>
+                        <p>(Pursuing)</p>
                     </div>
 
                     <div class="boxEa1b">
-                        <h2>Master's Degree
+                        <h2>Bachelor's Degree 
                         </h2>
                     </div>
 
@@ -825,14 +837,9 @@
 
                 <div class="boxEa2">
                     <h2>
-                        Master's Degree
-                        Master of Information Technology</h2>
-                    <h3>UNIVERSITY OF COMPUTER SCIENCE</h3>
-                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
-                        tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel
-                        eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque
-                        eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam
-                        pretium molestie ultricies sollicitudin dui.</p>
+                        Bachelor of Computer Applications </h2>
+                    <h3>INDIRA GANDHI NATIONAL OPEN UNIVERSITY</h3>
+                    <p>The Bachelor of Computer Application degree lasts three years (six semesters). Software testing, web design, software development and programming, computer networking, and computer systems are among the study subjects for which the degree is granted upon successful completion of the program. </p>
 
                 </div>
 
@@ -846,7 +853,7 @@
             <div class="boxEa">
                 <div class="boxEa1">
                     <div class="boxEa1a">
-                        <p>2009 - 2013</p>
+                        <p>2018 - 2021</p>
                     </div>
 
                     <div class="boxEa1b">
@@ -856,13 +863,9 @@
                 </div>
 
                 <div class="boxEa2">
-                    <h2>Bachelor of Computer Science</h2>
-                    <h3>UNIVERSITY OF COMPUTER SCIENCE</h3>
-                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
-                        tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel
-                        eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque
-                        eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam
-                        pretium molestie ultricies sollicitudin dui.</p>
+                    <h2>BA (hons) Political Science</h2>
+                    <h3>UNIVERSITY OF DELHI (SOL)</h3>
+                    <p>An undergraduate Political Science course. Political science is a social science concerned with the study of the state, government, and politics. It deals extensively with the theory and practice of politics and the analysis of political systems & behaviour. </p>
 
                 </div>
 
@@ -876,7 +879,7 @@
             <div class="boxEa">
                 <div class="boxEa1">
                     <div class="boxEa1a">
-                        <p>2007 - 2009</p>
+                        <p>2017 - 2018</p>
                     </div>
 
                     <div class="boxEa1b">
@@ -886,13 +889,9 @@
                 </div>
 
                 <div class="boxEa2">
-                    <h2>Science and Mathematics</h2>
-                    <h3>SCHOOL OF SECONDARY BOARD</h3>
-                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
-                        tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel
-                        eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque
-                        eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam
-                        pretium molestie ultricies sollicitudin dui.</p>
+                    <h2>High School</h2>
+                    <h3>CENTRAL BOARD OF SECONDARY EDUCATION</h3>
+                    <p>In High School I have the Art side Subjects (History, Hindi, English, Political Science & NCC). I’m completed my high school in Govt. Boys Sr. Sec. School, Delhi.  In The High school time, I’m participating many social activities also.   </p>
 
                 </div>
 
@@ -903,8 +902,8 @@
 
 
         <!-- Here Start BoxF of web page (Education) -->
-        <h2 class="h2box3">References</h2>
-        <div class="boxE">
+        <h2 class="h2box3" >References</h2>
+        <div class="boxE" >
 
             <div class="boxEa">
                 <!-- <div class="boxEa1"> -->
@@ -925,9 +924,7 @@
                         ABC Company ( CEO )</h3>
                     <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
                         tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel
-                        eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque
-                        eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam
-                        pretium molestie ultricies sollicitudin dui.</p>
+                        eleifend primis lectus quisque cubilia sed mauris. </p>
 
                 </div>
 
@@ -952,7 +949,7 @@
 
     <!-- Here Start BoxG of web page (References) -->
     <!-- div*1>div*2 -->
-    <div class="contactbox">
+    <div class="contactbox" id="contact">
         <p class="headings" id="cont">Contact Me</p>
         <div class="contact">
             <div class="contact1">
@@ -970,67 +967,46 @@
             <div class="contact2">
                 <div class="address">
                     <h5>ADDRESS</h5>
-                    <p>40, City Center, New York, U.S.A</p>
+                    <p>City Center, Jodhpur, Rajasthan</p>
                 </div>
                 <div class="phone">
                     <h5>Phone</h5>
-                    <p>+1718-111-0011</p>
+                    <p>+17XX-XXX-XXXX</p>
                 </div>
                 <div class="Email">
                     <h5>Email</h5>
-                    <p>anthony@company.com</p>
+                    <p>vjai2324@gmail.com</p>
                 </div>
             </div>
         </div>
     </div>
-        
-    <footer>
-        
+    <footer style="background-color: rgb(218, 212, 212);">
         <div class="foot">
-            
             <!-- Here User name -->
      <div>
         <div>
             <h2 class="h2box3">Jai Prakash</h2>
         </div>
-        <div>
-            <p>© Creative CV. All rights reserved.
-                Design - JaiPrakash</p>
-                 </div>
     </div>
-
         </div>
-
-        
-
         <!-- here Social Link  -->
-<!--         <div class="main_soicalM_link">
+        <div class="main_soicalM_link">
             <div class="soicalM_link">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"   style="   color: antiquewhite;"></i>
             </div>
 
-            <div class="soicalM_link"> <i class="fa fa-twitter" aria-hidden="true"></i> </div>
+            <a href="mailto:vjai2324@gmail.com"> <div class="soicalM_link">  <i class="fa fa-envelope" aria-hidden="true"  style="   color: antiquewhite;"></i>
+            </div> </a>
 
-            <div class="soicalM_link"> <i class="fa fa-google-plus" aria-hidden="true"></i></div>
+            <div class="soicalM_link"> <i class="fa fa-google-plus" aria-hidden="true"   style="   color: antiquewhite;"></i></div>
 
-            <div class="soicalM_link"> <i class="fa fa-instagram" aria-hidden="true"></i></div>
+            <a href="https://www.linkedin.com/in/jai-prakash-9a59681a1/"> <div class="soicalM_link"> <i class="fa fa-linkedin" aria-hidden="true"   style="   color: antiquewhite;"></i>  </div> </a>
 
-        </div> -->
+        </div>
+        <div style="text-align: center; margin-top: 5em; opacity: .7;">
+            <p>© Creative CV. All rights reserved.
+                Design - jai prakash</p>
+                 </div>
     </footer>
-     
-
-       
-    </div>
-
-
-    <div>
-
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-
-
 </body>
-
 </html>
