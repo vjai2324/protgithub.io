@@ -78,12 +78,6 @@
             position: relative;
             text-decoration:none;
         }
-        /* .nva_li:hover {
-            border: 1px solid gainsboro;
-            border-radius: 10px;
-            background-color: aliceblue;
-        } */
-
         .user_img {
             /* border: 2px solid black; */
             /* background-size: 1px 2px; */
@@ -91,12 +85,8 @@
             height: 2px; */
             margin: 3% 3% 0% 45.5%;
             padding-right: 10px;
-           
-            transition: 5s;
-            transition: scale(-0.5);
              /* border: 2px solid black; */
         }
-
         .user_img>img{
             width: 12em;
             height: 13em;
@@ -112,7 +102,6 @@
             padding-top: 10px;
             padding-bottom: 20px;
         }
-
         #intro_button {
 
             /* border: 2px solid black ; */
@@ -240,6 +229,7 @@
             grid-template-rows: 3fr;
             gap: 10px;
             padding: 10px 2px 7px 4px;
+            
         }
 
         .bb1 {
@@ -565,7 +555,7 @@
                     <h1>CREATIVE CV </h1>
                 </div>
                 <div class="nav_bar">
-                    <a href="" id="about"><li class="nva_li"  > ABOUT</li></a>
+                    <a href="#about" ><li class="nva_li"  > ABOUT</li></a>
 
                     <a href="#skills" >
                     <li class="nva_li">SKILLS</li></a>
@@ -580,8 +570,8 @@
             </div>
 
 
-            <div class="user_img">
-                <img src="https://github.com/vjai2324/prot.-github.io/blob/main/user_img2.jpeg?raw=true" alt="jaiprkash" width="180px" height="130px"
+            <div class="user_img" id="about">
+                <img src="user_img2.jpeg" alt="jaiprkash" width="180px" height="130px"
                     style="border-radius: 13px; align-items: center; border: none; ">
 
 
@@ -626,11 +616,12 @@
 
 
         <!--   Here Start Next boxB of web page         -->
+        <!-- <h2  class="h2box3"  >About</h2> -->
 
-        <div class="boxb">
+        <div class="boxb" >
             <!-- b2 stand for box2 ,, in boxB,  -->
             <div class="b1_about" >
-                <h2 id="about">About</h2>
+                <h2 >About</h2>
             </div>
             <div class="b2_basic_info">
                 <h2>Basic Information</h2>
@@ -638,7 +629,7 @@
             <!-- b1_con, con stand for contant (box1 contant) -->
             <div class="b1_con">
                 <div>
-                    <p class="b1_p1">Hello! I am Jai Prakash. Web Development Student and  Good Photographer.
+                    <p  class="b1_p1">Hello! I am Jai Prakash. Web Development Student and  Good Photographer.
                         
                          </p>
                 </div>
@@ -709,7 +700,7 @@
 
                     <div class="bb1">
                         <div class="bb1a">
-                            <P>HTML</P><progress value="80" max="100"></progress>
+                            <P>HTML</P><progress value="80" max="100" name="80"></progress>
                         </div>
                         <div class="bb1a">
                             <p>CSS</p><progress value="60" max="100"></progress>
@@ -777,7 +768,9 @@
                     <h2>Advanced Diploma “IT, Networking & 
                         Cloud” </h2>
                         <h3> NATIONAL SKILL TRAINING INSTITUTE (NSTI)</h3>
-                    <p>The advanced diploma course on IT, Networking and Cloud Computing, which is NSQF Level 6 certified, is jointly offered by Directorate General of Training, MSDE and IBM India</p>
+                    <p>The advanced diploma course on IT, Networking and Cloud Computing, which is NSQF Level 6 certified, is jointly offered by Directorate General of Training, MSDE and IBM India </p>
+                    <a href="/Catificates.html
+                    " style="color: #49cf49; "> Skill build Catificates </a>
 
                 </div>
 
@@ -973,7 +966,7 @@
                 </div>
                 <div class="phone">
                     <h5>Phone</h5>
-                    <p>+17XX-XXX-XXXX</p>
+                    <p>9716983094</p>
                 </div>
                 <div class="Email">
                     <h5>Email</h5>
